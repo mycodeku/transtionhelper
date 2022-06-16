@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/mycodeku/transtionhelper/types/module"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/evidence/exported"
+	"github.com/mycodeku/transtionhelper/x/evidence/types"
 )
 
 // Simulation parameter constants

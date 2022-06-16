@@ -7,8 +7,8 @@ package mocks
 import (
 	reflect "reflect"
 
-	db "github.com/cosmos/cosmos-sdk/db"
 	gomock "github.com/golang/mock/gomock"
+	db "github.com/mycodeku/transtionhelper/db"
 )
 
 // MockDBConnection is a mock of DBConnection interface.

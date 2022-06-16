@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/mycodeku/transtionhelper/x/simulation"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/distribution/types"
 )
 
 const (

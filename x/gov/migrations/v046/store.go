@@ -1,12 +1,12 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v040 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v040"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/codec"
+	"github.com/mycodeku/transtionhelper/store/prefix"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v040 "github.com/mycodeku/transtionhelper/x/gov/migrations/v040"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
 )
 
 // migrateProposals migrates all legacy proposals into MsgExecLegacyContent

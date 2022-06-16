@@ -8,9 +8,9 @@ import (
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 	tmlog "github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	"github.com/mycodeku/transtionhelper/server"
 )
 
 // Execute executes the root command of an application. It handles creating a

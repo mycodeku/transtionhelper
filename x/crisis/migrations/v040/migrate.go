@@ -1,8 +1,8 @@
 package v040
 
 import (
-	v039crisis "github.com/cosmos/cosmos-sdk/x/crisis/migrations/v039"
-	v040crisis "github.com/cosmos/cosmos-sdk/x/crisis/types"
+	v039crisis "github.com/mycodeku/transtionhelper/x/crisis/migrations/v039"
+	v040crisis "github.com/mycodeku/transtionhelper/x/crisis/types"
 )
 
 // Migrate accepts exported v0.39 x/crisis genesis state and

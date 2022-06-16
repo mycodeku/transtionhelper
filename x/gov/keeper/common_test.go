@@ -5,17 +5,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	authtypes "github.com/mycodeku/transtionhelper/x/auth/types"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
+	"github.com/mycodeku/transtionhelper/x/gov/types"
+	v1 "github.com/mycodeku/transtionhelper/x/gov/types/v1"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/x/staking"
+	stakingkeeper "github.com/mycodeku/transtionhelper/x/staking/keeper"
+	stakingtypes "github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 var (

@@ -3,8 +3,8 @@ package memdb
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/dbtest"
+	"github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/db/dbtest"
 )
 
 func BenchmarkMemDBRangeScans1M(b *testing.B) {

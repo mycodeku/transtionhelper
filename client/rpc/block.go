@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
 )
 
 // BlockCommand returns the verified block data for a given heights

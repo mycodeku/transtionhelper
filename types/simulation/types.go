@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/mycodeku/transtionhelper/baseapp"
+	"github.com/mycodeku/transtionhelper/codec"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/auth/migrations/legacytx"
 )
 
 type WeightedProposalContent interface {

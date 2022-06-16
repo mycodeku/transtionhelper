@@ -7,13 +7,13 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
+	"github.com/mycodeku/transtionhelper/telemetry"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/x/gov/types"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
 )
 
 type msgServer struct {
@@ -46,7 +46,7 @@ func (k msgServer) SubmitProposal(goCtx context.Context, msg *v1.MsgSubmitPropos
 		return nil, err
 	}
 
-	// ref: https://github.com/cosmos/cosmos-sdk/issues/9683
+	// ref: https://github.com/mycodeku/transtionhelper/issues/9683
 	ctx.GasMeter().ConsumeGas(
 		3*storetypes.KVGasConfig().WriteCostPerByte*uint64(len(bytes)),
 		"submit proposal",

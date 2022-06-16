@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/mycodeku/transtionhelper/server/types"
+	"github.com/mycodeku/transtionhelper/store"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
 )
 
 // GetPruningOptionsFromFlags parses command flags and returns the correct

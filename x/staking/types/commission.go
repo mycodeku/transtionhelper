@@ -5,7 +5,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // NewCommissionRates returns an initialized validator commission rates.

@@ -10,17 +10,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/params/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/params/keeper"
-	"github.com/cosmos/cosmos-sdk/x/params/simulation"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/codec"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/module"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/params/client/cli"
+	"github.com/mycodeku/transtionhelper/x/params/keeper"
+	"github.com/mycodeku/transtionhelper/x/params/simulation"
+	"github.com/mycodeku/transtionhelper/x/params/types"
+	"github.com/mycodeku/transtionhelper/x/params/types/proposal"
 )
 
 var (

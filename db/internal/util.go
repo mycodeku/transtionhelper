@@ -2,7 +2,7 @@ package util
 
 import (
 	"fmt"
-	dbm "github.com/cosmos/cosmos-sdk/db"
+	dbm "github.com/mycodeku/transtionhelper/db"
 )
 
 func ValidateKv(key, value []byte) error {

@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/errors
+module github.com/mycodeku/transtionhelper/errors
 
 go 1.17
 

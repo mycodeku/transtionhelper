@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/codec"
+	"github.com/mycodeku/transtionhelper/store/prefix"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 const (

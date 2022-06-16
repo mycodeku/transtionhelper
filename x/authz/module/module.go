@@ -10,17 +10,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	"github.com/cosmos/cosmos-sdk/x/authz/simulation"
+	sdkclient "github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/codec"
+	cdctypes "github.com/mycodeku/transtionhelper/codec/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/types/module"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/authz"
+	"github.com/mycodeku/transtionhelper/x/authz/client/cli"
+	"github.com/mycodeku/transtionhelper/x/authz/keeper"
+	"github.com/mycodeku/transtionhelper/x/authz/simulation"
 )
 
 var (

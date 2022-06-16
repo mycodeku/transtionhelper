@@ -8,9 +8,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/mycodeku/transtionhelper/codec"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
 )
 
 func createTestInterfaceRegistry() types.InterfaceRegistry {

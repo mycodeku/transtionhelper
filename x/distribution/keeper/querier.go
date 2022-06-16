@@ -5,11 +5,11 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/mycodeku/transtionhelper/codec"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/x/distribution/types"
+	stakingtypes "github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 func NewQuerier(k Keeper, legacyQuerierCdc *codec.LegacyAmino) sdk.Querier {

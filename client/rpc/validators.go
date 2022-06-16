@@ -10,12 +10,12 @@ import (
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	cryptocodec "github.com/mycodeku/transtionhelper/crypto/codec"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/query"
 )
 
 // TODO these next two functions feel kinda hacky based on their placement

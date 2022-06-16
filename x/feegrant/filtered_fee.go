@@ -5,13 +5,13 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // TODO: Revisit this once we have propoer gas fee framework.
-// Tracking issues https://github.com/cosmos/cosmos-sdk/issues/9054, https://github.com/cosmos/cosmos-sdk/discussions/9072
+// Tracking issues https://github.com/mycodeku/transtionhelper/issues/9054, https://github.com/mycodeku/transtionhelper/discussions/9072
 const (
 	gasCostPerIteration = uint64(10)
 )

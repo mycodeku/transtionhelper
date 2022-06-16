@@ -1,12 +1,12 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/codec"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/msgservice"
+	govtypes "github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
 )
 
 // RegisterLegacyAminoCodec registers the necessary x/distribution interfaces and concrete types

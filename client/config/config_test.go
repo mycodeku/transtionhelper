@@ -3,19 +3,19 @@ package config_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/mycodeku/transtionhelper/codec"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
 	"io"
 	"os"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/config"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	clitestutil "github.com/mycodeku/transtionhelper/testutil/cli"
+	"github.com/mycodeku/transtionhelper/x/staking/client/cli"
 )
 
 const (

@@ -3,8 +3,8 @@ package keeper
 import (
 	"sort"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/nft"
 )
 
 // InitGenesis new nft genesis

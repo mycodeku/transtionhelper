@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/mycodeku/transtionhelper/crypto/keys/secp256k1"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 )
 
 func TestBaseAddressPubKey(t *testing.T) {

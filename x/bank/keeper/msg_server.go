@@ -5,10 +5,10 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/mycodeku/transtionhelper/telemetry"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/x/bank/types"
 )
 
 type msgServer struct {

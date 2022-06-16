@@ -3,8 +3,8 @@ package group
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // NewGenesisState creates a new genesis state with default values.

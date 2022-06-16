@@ -6,8 +6,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	types "github.com/cosmos/cosmos-sdk/store/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/store/v2alpha1/smt"
+	types "github.com/mycodeku/transtionhelper/store/v2alpha1"
+	"github.com/mycodeku/transtionhelper/store/v2alpha1/smt"
 )
 
 // DefaultProofRuntime returns a ProofRuntime supporting SMT and simple merkle proofs.

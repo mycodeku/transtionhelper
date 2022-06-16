@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v039slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v039"
-	v040slashing "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v040"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/simapp"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v039slashing "github.com/mycodeku/transtionhelper/x/slashing/migrations/v039"
+	v040slashing "github.com/mycodeku/transtionhelper/x/slashing/migrations/v040"
 )
 
 func TestMigrate(t *testing.T) {

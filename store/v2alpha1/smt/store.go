@@ -4,9 +4,9 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/prefix"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	dbm "github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/db/prefix"
+	"github.com/mycodeku/transtionhelper/store/types"
 
 	ics23 "github.com/confio/ics23/go"
 	"github.com/lazyledger/smt"

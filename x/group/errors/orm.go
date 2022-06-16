@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // mathCodespace is the codespace for all errors defined in orm package

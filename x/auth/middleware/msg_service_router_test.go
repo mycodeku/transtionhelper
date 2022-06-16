@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
 )
 
 func TestRegisterMsgService(t *testing.T) {

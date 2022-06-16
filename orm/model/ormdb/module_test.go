@@ -8,22 +8,22 @@ import (
 	"strings"
 	"testing"
 
-	ormv1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	ormv1alpha1 "github.com/mycodeku/transtionhelper/api/cosmos/orm/v1alpha1"
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cosmos/cosmos-sdk/orm/testing/ormmocks"
+	"github.com/mycodeku/transtionhelper/orm/testing/ormmocks"
 
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/testkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormdb"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/testing/ormtest"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormjson"
+	"github.com/mycodeku/transtionhelper/orm/internal/testkv"
+	"github.com/mycodeku/transtionhelper/orm/internal/testpb"
+	"github.com/mycodeku/transtionhelper/orm/model/ormdb"
+	"github.com/mycodeku/transtionhelper/orm/model/ormtable"
+	"github.com/mycodeku/transtionhelper/orm/testing/ormtest"
+	"github.com/mycodeku/transtionhelper/orm/types/ormerrors"
+	"github.com/mycodeku/transtionhelper/orm/types/ormjson"
 )
 
 // These tests use a simulated bank keeper. Addresses and balances use

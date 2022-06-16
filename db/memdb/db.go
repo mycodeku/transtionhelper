@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cosmos/cosmos-sdk/db"
-	dbutil "github.com/cosmos/cosmos-sdk/db/internal"
 	"github.com/google/btree"
+	"github.com/mycodeku/transtionhelper/db"
+	dbutil "github.com/mycodeku/transtionhelper/db/internal"
 )
 
 const (

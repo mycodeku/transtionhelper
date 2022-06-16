@@ -6,10 +6,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/stablejson"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/kv"
+	"github.com/mycodeku/transtionhelper/orm/encoding/ormkv"
+	"github.com/mycodeku/transtionhelper/orm/internal/stablejson"
+	"github.com/mycodeku/transtionhelper/orm/model/ormtable"
+	"github.com/mycodeku/transtionhelper/orm/types/kv"
 )
 
 // Debugger is an interface that handles debug info from the debug store wrapper.

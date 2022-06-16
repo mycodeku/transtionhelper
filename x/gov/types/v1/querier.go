@@ -1,7 +1,7 @@
 package v1
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // DONTCOVER

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
 )
 
 // kvstoreTx defines a tx for mock purposes. The `key` and `value` fields will

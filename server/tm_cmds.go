@@ -11,9 +11,9 @@ import (
 	tversion "github.com/tendermint/tendermint/version"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/client"
+	cryptocodec "github.com/mycodeku/transtionhelper/crypto/codec"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // ShowNodeIDCmd - ported from Tendermint, dump node ID to stdout

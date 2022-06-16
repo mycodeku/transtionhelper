@@ -5,11 +5,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
 )
 
 func (s *MWTestSuite) TestRunMsgs() {

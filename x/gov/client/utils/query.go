@@ -3,13 +3,13 @@ package utils
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/client"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	authtx "github.com/mycodeku/transtionhelper/x/auth/tx"
+	"github.com/mycodeku/transtionhelper/x/gov/types"
+	v1 "github.com/mycodeku/transtionhelper/x/gov/types/v1"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
 )
 
 const (

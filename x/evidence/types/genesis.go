@@ -5,8 +5,8 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/x/evidence/exported"
 )
 
 var _ types.UnpackInterfacesMessage = GenesisState{}

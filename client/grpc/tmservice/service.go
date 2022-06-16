@@ -8,12 +8,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/rpc"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	qtypes "github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/rpc"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	qtypes "github.com/mycodeku/transtionhelper/types/query"
+	"github.com/mycodeku/transtionhelper/version"
 )
 
 // This is the struct that we will implement all the handlers on.

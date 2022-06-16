@@ -7,8 +7,8 @@ package mocks
 import (
 	reflect "reflect"
 
-	types "github.com/cosmos/cosmos-sdk/types"
 	gomock "github.com/golang/mock/gomock"
+	types "github.com/mycodeku/transtionhelper/types"
 )
 
 // MockInvariantRegistry is a mock of InvariantRegistry interface.

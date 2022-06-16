@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/crypto/hd"
+	"github.com/mycodeku/transtionhelper/crypto/keyring"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/types"
 )
 
 func TestGenerateCoinKey(t *testing.T) {

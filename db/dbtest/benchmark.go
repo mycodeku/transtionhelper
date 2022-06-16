@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
+	dbm "github.com/mycodeku/transtionhelper/db"
 )
 
 func Int64ToBytes(i int64) []byte {

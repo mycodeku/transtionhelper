@@ -13,9 +13,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	cverrors "github.com/cosmos/cosmos-sdk/cosmovisor/errors"
-	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	cverrors "github.com/mycodeku/transtionhelper/cosmovisor/errors"
+	upgradekeeper "github.com/mycodeku/transtionhelper/x/upgrade/keeper"
+	upgradetypes "github.com/mycodeku/transtionhelper/x/upgrade/types"
 )
 
 // environment variable names
@@ -227,9 +227,9 @@ func (cfg *Config) validate() []error {
 	// if UnsafeSkipBackup is false, check if the DataBackupPath valid
 	switch {
 	case cfg.DataBackupPath == "":
-		errs = append(errs, errors.New(EnvDataBackupPath + " must not be empty"))
+		errs = append(errs, errors.New(EnvDataBackupPath+" must not be empty"))
 	case !filepath.IsAbs(cfg.DataBackupPath):
-		errs = append(errs, errors.New(cfg.DataBackupPath + " must be an absolute path"))
+		errs = append(errs, errors.New(cfg.DataBackupPath+" must be an absolute path"))
 	default:
 		switch info, err := os.Stat(cfg.DataBackupPath); {
 		case err != nil:

@@ -12,15 +12,15 @@ import (
 	tmtime "github.com/tendermint/tendermint/libs/time"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/module"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/bank/testutil"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
+	"github.com/mycodeku/transtionhelper/x/group"
+	"github.com/mycodeku/transtionhelper/x/group/internal/math"
+	"github.com/mycodeku/transtionhelper/x/group/keeper"
+	"github.com/mycodeku/transtionhelper/x/group/module"
 )
 
 type TestSuite struct {

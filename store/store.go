@@ -3,9 +3,9 @@ package store
 import (
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store/cache"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/mycodeku/transtionhelper/store/cache"
+	"github.com/mycodeku/transtionhelper/store/rootmulti"
+	"github.com/mycodeku/transtionhelper/store/types"
 )
 
 func NewCommitMultiStore(db dbm.DB) types.CommitMultiStore {

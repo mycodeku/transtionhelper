@@ -10,9 +10,9 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/mycodeku/transtionhelper/simapp"
+	authtypes "github.com/mycodeku/transtionhelper/x/auth/types"
+	"github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 func TestItCreatesModuleAccountOnInitBlock(t *testing.T) {
@@ -23,7 +23,7 @@ func TestItCreatesModuleAccountOnInitBlock(t *testing.T) {
 	genesisState := simapp.GenesisStateWithSingleValidator(t, app)
 	stateBytes, err := tmjson.Marshal(genesisState)
 	require.NoError(t, err)
-	
+
 	app.InitChain(
 		abcitypes.RequestInitChain{
 			AppStateBytes: stateBytes,

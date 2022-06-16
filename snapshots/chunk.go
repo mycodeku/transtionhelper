@@ -1,11 +1,11 @@
 package snapshots
 
 import (
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
+	snapshottypes "github.com/mycodeku/transtionhelper/snapshots/types"
 	"io"
 	"math"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // ChunkWriter reads an input stream, splits it into fixed-size chunks, and writes them to a

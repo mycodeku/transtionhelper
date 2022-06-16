@@ -1,6 +1,6 @@
 go 1.17
 
-module github.com/cosmos/cosmos-sdk
+module github.com/mycodeku/transtionhelper
 
 require (
 	github.com/99designs/keyring v1.1.6
@@ -12,9 +12,9 @@ require (
 	github.com/confio/ics23/go v0.7.0
 	github.com/cosmos/btcutil v1.0.4
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
-	github.com/cosmos/cosmos-sdk/api v0.1.0
-	github.com/cosmos/cosmos-sdk/db v1.0.0-beta.1
-	github.com/cosmos/cosmos-sdk/errors v1.0.0-beta.3
+	github.com/mycodeku/transtionhelper/api v0.1.0
+	github.com/mycodeku/transtionhelper/db v1.0.0-beta.1
+	github.com/mycodeku/transtionhelper/errors v1.0.0-beta.3
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/iavl v0.18.0
 	github.com/cosmos/ledger-cosmos-go v0.11.1
@@ -150,9 +150,9 @@ replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alp
 replace github.com/99designs/keyring => github.com/cosmos/keyring v1.1.7-0.20210622111912-ef00f8ac3d76
 
 // Fix upstream GHSA-h395-qcrw-5vmq vulnerability.
-// TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
+// TODO Remove it: https://github.com/mycodeku/transtionhelper/issues/10409
 replace github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.0
 
-replace github.com/cosmos/cosmos-sdk/db => ./db
+replace github.com/mycodeku/transtionhelper/db => ./db
 
 retract v0.43.0

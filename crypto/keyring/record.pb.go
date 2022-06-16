@@ -5,10 +5,10 @@ package keyring
 
 import (
 	fmt "fmt"
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	hd "github.com/cosmos/cosmos-sdk/crypto/hd"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
+	types "github.com/mycodeku/transtionhelper/codec/types"
+	hd "github.com/mycodeku/transtionhelper/crypto/hd"
 	io "io"
 	math "math"
 	math_bits "math/bits"

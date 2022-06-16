@@ -4,9 +4,9 @@ package txv1beta1
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	v1beta11 "github.com/cosmos/cosmos-sdk/api/cosmos/base/abci/v1beta1"
-	v1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
-	types "github.com/cosmos/cosmos-sdk/api/tendermint/types"
+	v1beta11 "github.com/mycodeku/transtionhelper/api/cosmos/base/abci/v1beta1"
+	v1beta1 "github.com/mycodeku/transtionhelper/api/cosmos/base/query/v1beta1"
+	types "github.com/mycodeku/transtionhelper/api/tendermint/types"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

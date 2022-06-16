@@ -9,7 +9,7 @@ import "tendermint/types/types.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "cosmos_proto/cosmos.proto";
 
-option go_package = "github.com/cosmos/cosmos-sdk/client/grpc/tmservice";
+option go_package = "github.com/mycodeku/transtionhelper/client/grpc/tmservice";
 
 // Service defines the gRPC querier service for tendermint queries.
 service Service {

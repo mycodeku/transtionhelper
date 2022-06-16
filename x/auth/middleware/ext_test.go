@@ -1,13 +1,13 @@
 package middleware_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	typestx "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	typestx "github.com/mycodeku/transtionhelper/types/tx"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
+	"github.com/mycodeku/transtionhelper/x/auth/tx"
 )
 
 func (s *MWTestSuite) TestExtensionOptionsMiddleware() {

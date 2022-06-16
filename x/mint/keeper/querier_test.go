@@ -8,11 +8,11 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	keep "github.com/cosmos/cosmos-sdk/x/mint/keeper"
-	"github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/mycodeku/transtionhelper/codec"
+	"github.com/mycodeku/transtionhelper/simapp"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	keep "github.com/mycodeku/transtionhelper/x/mint/keeper"
+	"github.com/mycodeku/transtionhelper/x/mint/types"
 )
 
 type MintKeeperTestSuite struct {

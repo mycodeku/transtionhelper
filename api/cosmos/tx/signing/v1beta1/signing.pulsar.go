@@ -4,7 +4,7 @@ package signingv1beta1
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	v1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/crypto/multisig/v1beta1"
+	v1beta1 "github.com/mycodeku/transtionhelper/api/cosmos/crypto/multisig/v1beta1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

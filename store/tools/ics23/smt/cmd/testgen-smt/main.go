@@ -9,10 +9,10 @@ import (
 
 	ics23 "github.com/confio/ics23/go"
 
-	tmproofs "github.com/cosmos/cosmos-sdk/store/internal/proofs"
-	tools "github.com/cosmos/cosmos-sdk/store/tools/ics23"
-	smtproofs "github.com/cosmos/cosmos-sdk/store/tools/ics23/smt"
-	"github.com/cosmos/cosmos-sdk/store/tools/ics23/smt/helpers"
+	tmproofs "github.com/mycodeku/transtionhelper/store/internal/proofs"
+	tools "github.com/mycodeku/transtionhelper/store/tools/ics23"
+	smtproofs "github.com/mycodeku/transtionhelper/store/tools/ics23/smt"
+	"github.com/mycodeku/transtionhelper/store/tools/ics23/smt/helpers"
 )
 
 /**

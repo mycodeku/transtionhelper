@@ -1,7 +1,7 @@
 package feegrant
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/mycodeku/transtionhelper/codec/types"
 )
 
 var _ types.UnpackInterfacesMessage = GenesisState{}

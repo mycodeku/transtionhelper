@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/viper"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
+	"github.com/mycodeku/transtionhelper/telemetry"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 const (
@@ -107,7 +107,7 @@ type APIConfig struct {
 
 	// TODO: TLS/Proxy configuration.
 	//
-	// Ref: https://github.com/cosmos/cosmos-sdk/issues/6420
+	// Ref: https://github.com/mycodeku/transtionhelper/issues/6420
 }
 
 // RosettaConfig defines the Rosetta API listener configuration.

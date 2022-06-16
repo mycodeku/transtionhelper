@@ -6,11 +6,11 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	servertypes "github.com/mycodeku/transtionhelper/server/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	slashingtypes "github.com/mycodeku/transtionhelper/x/slashing/types"
+	"github.com/mycodeku/transtionhelper/x/staking"
+	stakingtypes "github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 // ExportAppStateAndValidators exports the state of the application for a genesis

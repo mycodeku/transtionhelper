@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
+	"github.com/mycodeku/transtionhelper/x/group"
 )
 
 func (s *TestSuite) TestTally() {

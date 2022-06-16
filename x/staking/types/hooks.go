@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // combine multiple staking hooks, all hook functions are run in array sequence

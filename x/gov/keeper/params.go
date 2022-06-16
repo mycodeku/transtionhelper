@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v1 "github.com/mycodeku/transtionhelper/x/gov/types/v1"
 )
 
 // GetDepositParams returns the current DepositParams from the global param store

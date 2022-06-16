@@ -1,9 +1,9 @@
 package auth
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/auth/keeper"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 )
 
 // InitGenesis - Init store state from genesis data

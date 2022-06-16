@@ -7,12 +7,12 @@ package v038
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32/legacybech32"
-	v034staking "github.com/cosmos/cosmos-sdk/x/staking/migrations/v034"
-	v036staking "github.com/cosmos/cosmos-sdk/x/staking/migrations/v036"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/bech32/legacybech32"
+	v034staking "github.com/mycodeku/transtionhelper/x/staking/migrations/v034"
+	v036staking "github.com/mycodeku/transtionhelper/x/staking/migrations/v036"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	paramtypes "github.com/mycodeku/transtionhelper/x/params/types"
 )
 
 // Default parameter values

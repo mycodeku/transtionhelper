@@ -3,10 +3,10 @@ package v046
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/mycodeku/transtionhelper/crypto/keys/ed25519"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/address"
+	bank "github.com/mycodeku/transtionhelper/x/bank/types"
 	"github.com/stretchr/testify/require"
 )
 

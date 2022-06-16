@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	ocproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
+	"github.com/mycodeku/transtionhelper/simapp"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
+	"github.com/mycodeku/transtionhelper/x/feegrant"
 )
 
 func TestFilteredFeeValidAllow(t *testing.T) {

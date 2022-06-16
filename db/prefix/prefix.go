@@ -3,7 +3,7 @@
 package prefix
 
 import (
-	"github.com/cosmos/cosmos-sdk/db"
+	"github.com/mycodeku/transtionhelper/db"
 )
 
 // prefixed Reader

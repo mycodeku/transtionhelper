@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"math"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	"github.com/mycodeku/transtionhelper/types/tx"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
+	minttypes "github.com/mycodeku/transtionhelper/x/mint/types"
 )
 
 var blockMaxGas = uint64(simapp.DefaultConsensusParams.Block.MaxGas)

@@ -3,22 +3,22 @@ package middleware_test
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256r1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
+	"github.com/mycodeku/transtionhelper/crypto/keys/ed25519"
+	kmultisig "github.com/mycodeku/transtionhelper/crypto/keys/multisig"
+	"github.com/mycodeku/transtionhelper/crypto/keys/secp256k1"
+	"github.com/mycodeku/transtionhelper/crypto/keys/secp256r1"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	"github.com/mycodeku/transtionhelper/crypto/types/multisig"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
+	"github.com/mycodeku/transtionhelper/types/tx/signing"
+	"github.com/mycodeku/transtionhelper/x/auth/middleware"
+	"github.com/mycodeku/transtionhelper/x/auth/migrations/legacytx"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 
@@ -197,10 +197,10 @@ func (s *MWTestSuite) TestSigVerification() {
 
 // This test is exactly like the one above, but we set the codec explicitly to
 // Amino.
-// Once https://github.com/cosmos/cosmos-sdk/issues/6190 is in, we can remove
+// Once https://github.com/mycodeku/transtionhelper/issues/6190 is in, we can remove
 // this, since it'll be handled by the test matrix.
 // In the meantime, we want to make double-sure amino compatibility works.
-// ref: https://github.com/cosmos/cosmos-sdk/issues/7229
+// ref: https://github.com/mycodeku/transtionhelper/issues/7229
 func (s *MWTestSuite) TestSigVerification_ExplicitAmino() {
 	ctx := s.SetupTest(true)
 	ctx = ctx.WithBlockHeight(1)

@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	cverrors "github.com/cosmos/cosmos-sdk/cosmovisor/errors"
+	cverrors "github.com/mycodeku/transtionhelper/cosmovisor/errors"
 	"github.com/rs/zerolog"
 )
 

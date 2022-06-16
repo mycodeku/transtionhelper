@@ -155,6 +155,6 @@ Test cases for an implementation are mandatory for ADRs that are affecting conse
 
 ## References
 
-- https://github.com/cosmos/cosmos-sdk/pull/10961
-- https://github.com/cosmos/cosmos-sdk/issues/7340
+- https://github.com/mycodeku/transtionhelper/pull/10961
+- https://github.com/mycodeku/transtionhelper/issues/7340
 - https://hackmd.io/gJoyev6DSmqqkO667WQlGw

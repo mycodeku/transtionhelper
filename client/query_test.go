@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package client_test
@@ -7,7 +8,7 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryABCIHeight() {

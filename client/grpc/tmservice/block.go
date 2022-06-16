@@ -2,7 +2,7 @@ package tmservice
 
 import (
 	"context"
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/mycodeku/transtionhelper/client"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	"github.com/tendermint/tendermint/rpc/coretypes"
 )

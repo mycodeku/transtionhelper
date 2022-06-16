@@ -20,17 +20,17 @@ import (
 	"gotest.tools/v3/golden"
 	"pgregory.net/rapid"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/kv"
+	"github.com/mycodeku/transtionhelper/orm/types/kv"
 
-	queryv1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
-	sdkerrors "github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testutil"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	queryv1beta1 "github.com/mycodeku/transtionhelper/api/cosmos/base/query/v1beta1"
+	sdkerrors "github.com/mycodeku/transtionhelper/errors"
+	"github.com/mycodeku/transtionhelper/orm/encoding/ormkv"
+	"github.com/mycodeku/transtionhelper/orm/internal/testkv"
+	"github.com/mycodeku/transtionhelper/orm/internal/testpb"
+	"github.com/mycodeku/transtionhelper/orm/internal/testutil"
+	"github.com/mycodeku/transtionhelper/orm/model/ormlist"
+	"github.com/mycodeku/transtionhelper/orm/model/ormtable"
+	"github.com/mycodeku/transtionhelper/orm/types/ormerrors"
 )
 
 func TestScenario(t *testing.T) {
@@ -68,7 +68,7 @@ func TestScenario(t *testing.T) {
 	checkEncodeDecodeEntries(t, table, store.IndexStoreReader())
 }
 
-// isolated test for bug - https://github.com/cosmos/cosmos-sdk/issues/11431
+// isolated test for bug - https://github.com/mycodeku/transtionhelper/issues/11431
 func TestPaginationLimitCountTotal(t *testing.T) {
 	table, err := ormtable.Build(ormtable.Options{
 		MessageType: (&testpb.ExampleTable{}).ProtoReflect().Type(),

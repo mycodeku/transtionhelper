@@ -10,17 +10,17 @@ import (
 	tmtime "github.com/tendermint/tendermint/libs/time"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/mycodeku/transtionhelper/baseapp"
+	"github.com/mycodeku/transtionhelper/simapp"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/query"
+	authkeeper "github.com/mycodeku/transtionhelper/x/auth/keeper"
+	authtypes "github.com/mycodeku/transtionhelper/x/auth/types"
+	vesting "github.com/mycodeku/transtionhelper/x/auth/vesting/types"
+	"github.com/mycodeku/transtionhelper/x/bank/keeper"
+	"github.com/mycodeku/transtionhelper/x/bank/testutil"
+	"github.com/mycodeku/transtionhelper/x/bank/types"
+	minttypes "github.com/mycodeku/transtionhelper/x/mint/types"
 )
 
 const (

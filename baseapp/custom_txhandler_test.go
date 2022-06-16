@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
 	"github.com/tendermint/tendermint/crypto/tmhash"
 )
 
@@ -69,7 +69,7 @@ func (txh customTxHandler) runHandler(ctx context.Context, tx sdk.Tx, txBytes []
 
 	// Branch context before Handler call in case it aborts.
 	// This is required for both CheckTx and DeliverTx.
-	// Ref: https://github.com/cosmos/cosmos-sdk/issues/2772
+	// Ref: https://github.com/mycodeku/transtionhelper/issues/2772
 	//
 	// NOTE: Alternatively, we could require that Handler ensures that
 	// writes do not happen if aborted/failed.  This may have some
@@ -100,7 +100,7 @@ func (txh customTxHandler) runHandler(ctx context.Context, tx sdk.Tx, txBytes []
 // a branched multi-store.
 func cacheTxContext(sdkCtx sdk.Context, txBytes []byte) (sdk.Context, sdk.CacheMultiStore) {
 	ms := sdkCtx.MultiStore()
-	// TODO: https://github.com/cosmos/cosmos-sdk/issues/2824
+	// TODO: https://github.com/mycodeku/transtionhelper/issues/2824
 	msCache := ms.CacheMultiStore()
 	if msCache.TracingEnabled() {
 		msCache = msCache.SetTracingContext(

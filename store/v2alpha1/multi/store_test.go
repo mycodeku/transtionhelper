@@ -9,12 +9,12 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/memdb"
-	types "github.com/cosmos/cosmos-sdk/store/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/mycodeku/transtionhelper/codec"
+	codecTypes "github.com/mycodeku/transtionhelper/codec/types"
+	dbm "github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/db/memdb"
+	types "github.com/mycodeku/transtionhelper/store/v2alpha1"
+	"github.com/mycodeku/transtionhelper/types/kv"
 )
 
 var (

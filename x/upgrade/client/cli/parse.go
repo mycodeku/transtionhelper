@@ -1,9 +1,9 @@
 package cli
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/mycodeku/transtionhelper/x/gov/client/cli"
+	gov "github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/x/upgrade/types"
 	"github.com/spf13/cobra"
 )
 

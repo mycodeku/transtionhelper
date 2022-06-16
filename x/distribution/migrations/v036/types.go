@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v034distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v034"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v036"
+	"github.com/mycodeku/transtionhelper/codec"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v034distr "github.com/mycodeku/transtionhelper/x/distribution/migrations/v034"
+	"github.com/mycodeku/transtionhelper/x/distribution/types"
+	v036gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v036"
 )
 
 // ----------------------------------------------------------------------------

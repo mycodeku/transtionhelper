@@ -3,8 +3,8 @@ package feegrant
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 var _ FeeAllowanceI = (*PeriodicAllowance)(nil)

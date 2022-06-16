@@ -1,10 +1,10 @@
 package transient
 
 import (
-	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/memdb"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/store/v2alpha1/dbadapter"
+	dbm "github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/db/memdb"
+	"github.com/mycodeku/transtionhelper/store/types"
+	"github.com/mycodeku/transtionhelper/store/v2alpha1/dbadapter"
 )
 
 var (

@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v1 "github.com/mycodeku/transtionhelper/x/gov/types/v1"
+	stakingtypes "github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 // TODO: Break into several smaller functions for clarity

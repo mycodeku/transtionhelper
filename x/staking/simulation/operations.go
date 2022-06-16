@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/mycodeku/transtionhelper/baseapp"
+	"github.com/mycodeku/transtionhelper/codec"
+	simappparams "github.com/mycodeku/transtionhelper/simapp/params"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/simulation"
+	"github.com/mycodeku/transtionhelper/x/staking/keeper"
+	"github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 // Simulation operation weights constants

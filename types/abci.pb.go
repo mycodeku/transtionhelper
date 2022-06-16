@@ -5,9 +5,9 @@ package types
 
 import (
 	fmt "fmt"
-	types "github.com/cosmos/cosmos-sdk/codec/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
+	types "github.com/mycodeku/transtionhelper/codec/types"
 	types1 "github.com/tendermint/tendermint/abci/types"
 	io "io"
 	math "math"

@@ -1,7 +1,7 @@
 package ormerrors
 
 import (
-	"github.com/cosmos/cosmos-sdk/errors"
+	"github.com/mycodeku/transtionhelper/errors"
 	"google.golang.org/grpc/codes"
 )
 

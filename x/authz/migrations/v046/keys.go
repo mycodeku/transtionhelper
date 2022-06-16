@@ -3,10 +3,10 @@ package v046
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/mycodeku/transtionhelper/internal/conv"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/address"
+	"github.com/mycodeku/transtionhelper/types/kv"
 )
 
 // Keys for store prefixes

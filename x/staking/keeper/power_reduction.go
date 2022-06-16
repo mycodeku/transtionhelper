@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // TokensToConsensusPower - convert input tokens to potential consensus-engine power

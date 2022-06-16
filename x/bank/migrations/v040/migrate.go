@@ -1,10 +1,10 @@
 package v040
 
 import (
-	v039auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v039"
-	v036supply "github.com/cosmos/cosmos-sdk/x/bank/migrations/v036"
-	v038bank "github.com/cosmos/cosmos-sdk/x/bank/migrations/v038"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	v039auth "github.com/mycodeku/transtionhelper/x/auth/migrations/v039"
+	v036supply "github.com/mycodeku/transtionhelper/x/bank/migrations/v036"
+	v038bank "github.com/mycodeku/transtionhelper/x/bank/migrations/v038"
+	"github.com/mycodeku/transtionhelper/x/bank/types"
 )
 
 // Migrate accepts exported v0.39 x/auth and v0.38 x/bank genesis state and

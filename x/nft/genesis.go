@@ -1,7 +1,7 @@
 package nft
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // ValidateGenesis check the given genesis state has no integrity issues

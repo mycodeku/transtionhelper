@@ -9,7 +9,7 @@ import (
 	tmprototypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/mycodeku/transtionhelper/baseapp"
 )
 
 func TestGetBlockRentionHeight(t *testing.T) {
@@ -116,8 +116,8 @@ func TestGetBlockRentionHeight(t *testing.T) {
 
 // Test and ensure that invalid block heights always cause errors.
 // See issues:
-// - https://github.com/cosmos/cosmos-sdk/issues/11220
-// - https://github.com/cosmos/cosmos-sdk/issues/7662
+// - https://github.com/mycodeku/transtionhelper/issues/11220
+// - https://github.com/mycodeku/transtionhelper/issues/7662
 func TestBaseAppCreateQueryContext(t *testing.T) {
 	t.Parallel()
 

@@ -5,12 +5,12 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/mycodeku/transtionhelper/testutil"
+	"github.com/mycodeku/transtionhelper/testutil/rest"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	grpctypes "github.com/mycodeku/transtionhelper/types/grpc"
+	"github.com/mycodeku/transtionhelper/types/query"
+	"github.com/mycodeku/transtionhelper/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestTotalSupplyGRPCHandler() {

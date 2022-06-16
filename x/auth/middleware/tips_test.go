@@ -6,16 +6,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/mycodeku/transtionhelper/client"
+	clienttx "github.com/mycodeku/transtionhelper/client/tx"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
+	"github.com/mycodeku/transtionhelper/types/tx/signing"
+	authsigning "github.com/mycodeku/transtionhelper/x/auth/signing"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
+	govtypes "github.com/mycodeku/transtionhelper/x/gov/types/v1"
+	minttypes "github.com/mycodeku/transtionhelper/x/mint/types"
 )
 
 var initialRegens = sdk.NewCoins(sdk.NewCoin("regen", sdk.NewInt(1000)))

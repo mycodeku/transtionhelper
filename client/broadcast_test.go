@@ -11,8 +11,8 @@ import (
 	"github.com/tendermint/tendermint/rpc/coretypes"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 type MockClient struct {

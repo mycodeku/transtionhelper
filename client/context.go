@@ -14,10 +14,10 @@ import (
 	"github.com/gogo/protobuf/proto"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/codec"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/crypto/keyring"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // Context implements a typical context created in SDK modules for transaction
@@ -52,9 +52,9 @@ type Context struct {
 	FeePayer          sdk.AccAddress
 	FeeGranter        sdk.AccAddress
 	Viper             *viper.Viper
-	
+
 	// IsAux is true when the signer is an auxiliary signer (e.g. the tipper).
-	IsAux             bool
+	IsAux bool
 
 	// TODO: Deprecated (remove).
 	LegacyAmino *codec.LegacyAmino
@@ -76,7 +76,7 @@ func (ctx Context) WithKeyringOptions(opts ...keyring.Option) Context {
 func (ctx Context) WithInput(r io.Reader) Context {
 	// convert to a bufio.Reader to have a shared buffer between the keyring and the
 	// the Commands, ensuring a read from one advance the read pointer for the other.
-	// see https://github.com/cosmos/cosmos-sdk/issues/9566.
+	// see https://github.com/mycodeku/transtionhelper/issues/9566.
 	ctx.Input = bufio.NewReader(r)
 	return ctx
 }

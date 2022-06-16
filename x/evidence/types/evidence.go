@@ -9,8 +9,8 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"sigs.k8s.io/yaml"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/evidence/exported"
 )
 
 // Evidence type constants

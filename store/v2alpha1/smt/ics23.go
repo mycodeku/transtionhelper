@@ -7,7 +7,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
+	dbm "github.com/mycodeku/transtionhelper/db"
 
 	ics23 "github.com/confio/ics23/go"
 )

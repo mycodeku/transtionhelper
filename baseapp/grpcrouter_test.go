@@ -5,17 +5,17 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata_pulsar"
+	"github.com/mycodeku/transtionhelper/testutil/testdata_pulsar"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/baseapp"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/simapp"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 func TestGRPCQueryRouter(t *testing.T) {
@@ -79,7 +79,7 @@ func TestRegisterQueryServiceTwice(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/mycodeku/transtionhelper/issues/10324
 // but with the same client connection being used concurrently.
 func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 	var mu sync.Mutex
@@ -100,7 +100,7 @@ func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/mycodeku/transtionhelper/issues/10324
 // but with unique client connections requesting from the same handler concurrently.
 func TestQueryDataRaces_uniqueConnectionsToSameHandler(t *testing.T) {
 	// Return a new handler for every single call.

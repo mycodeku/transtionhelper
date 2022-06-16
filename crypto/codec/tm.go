@@ -5,10 +5,10 @@ import (
 	"github.com/tendermint/tendermint/crypto/encoding"
 	tmprotocrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/crypto/keys/ed25519"
+	"github.com/mycodeku/transtionhelper/crypto/keys/secp256k1"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // FromTmProtoPublicKey converts a TM's tmprotocrypto.PublicKey into our own PubKey.

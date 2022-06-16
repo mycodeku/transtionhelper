@@ -1,13 +1,13 @@
 package multi
 
 import (
-	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/mem"
-	v1Store "github.com/cosmos/cosmos-sdk/store/rootmulti"
-	"github.com/cosmos/cosmos-sdk/store/transient"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	dbm "github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/store/iavl"
+	"github.com/mycodeku/transtionhelper/store/mem"
+	v1Store "github.com/mycodeku/transtionhelper/store/rootmulti"
+	"github.com/mycodeku/transtionhelper/store/transient"
+	"github.com/mycodeku/transtionhelper/store/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // MigrateFromV1 will migrate the state from iavl to smt

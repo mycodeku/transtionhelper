@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
+	dbm "github.com/mycodeku/transtionhelper/db"
 )
 
 type dbDeleteVersionFails struct{ dbm.DBConnection }

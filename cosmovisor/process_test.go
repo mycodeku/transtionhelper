@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 package cosmovisor_test
@@ -9,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/mycodeku/transtionhelper/cosmovisor"
+	upgradetypes "github.com/mycodeku/transtionhelper/x/upgrade/types"
 )
 
 type processTestSuite struct {

@@ -3,7 +3,7 @@ package v1_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/mycodeku/transtionhelper/x/gov/types/v1"
 	"github.com/stretchr/testify/require"
 )
 

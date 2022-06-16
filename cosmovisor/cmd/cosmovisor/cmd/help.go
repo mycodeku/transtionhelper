@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
+	"github.com/mycodeku/transtionhelper/cosmovisor"
 )
 
 // HelpArgs are the strings that indicate a cosmovisor help command.
@@ -34,7 +34,7 @@ the proposal. Cosmovisor interprets that data to perform an update: switch a cur
 and restart the App.
 
 Configuration of Cosmovisor is done through environment variables, which are
-documented in: https://github.com/cosmos/cosmos-sdk/tree/master/cosmovisor/README.md
+documented in: https://github.com/mycodeku/transtionhelper/tree/master/cosmovisor/README.md
 
 To get help for the configured binary:
   cosmovisor run help

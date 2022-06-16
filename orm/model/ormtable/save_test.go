@@ -3,7 +3,7 @@ package ormtable_test
 import (
 	"context"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	"github.com/mycodeku/transtionhelper/orm/model/ormtable"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/encoding/protojson"
@@ -12,8 +12,8 @@ import (
 	"github.com/regen-network/gocuke"
 	"gotest.tools/v3/assert"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/testing/ormtest"
+	"github.com/mycodeku/transtionhelper/orm/internal/testpb"
+	"github.com/mycodeku/transtionhelper/orm/testing/ormtest"
 )
 
 func TestSave(t *testing.T) {

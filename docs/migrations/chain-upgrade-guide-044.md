@@ -35,14 +35,14 @@ In addition to migrating existing modules, the upgrade handler also performs sto
 We recommend validators use [Cosmovisor](../run-node/cosmovisor.html), which is a process manager for running application binaries. For security reasons, we recommend validators build their own upgrade binaries rather than enabling the auto-download option. Validators may still choose to use the auto-download option if the necessary security guarantees are in place (i.e. the URL provided in the upgrade proposal for the downloadable upgrade binary includes a proper checksum).
 
 ::: tip
-If validators would like to enable the auto-download option, and they are currently running an application using Cosmos SDK `v0.42`, they will need to use Cosmovisor [`v0.1`](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv0.1.0). Later versions of Cosmovisor do not support Cosmos SDK `v0.42` or earlier if the auto-download option is enabled.
+If validators would like to enable the auto-download option, and they are currently running an application using Cosmos SDK `v0.42`, they will need to use Cosmovisor [`v0.1`](https://github.com/mycodeku/transtionhelper/releases/tag/cosmovisor%2Fv0.1.0). Later versions of Cosmovisor do not support Cosmos SDK `v0.42` or earlier if the auto-download option is enabled.
 :::
 
 Validators can use the auto-restart option to prevent unnecessary downtime during the upgrade process. The auto-restart option will automatically restart the chain with the upgrade binary once the chain has halted at the proposed upgrade height. With the auto-restart option, validators can prepare the upgrade binary in advance and then relax at the time of the upgrade.
 
 ## Migrating app.toml
 
-With the update to `v0.44`, new server configuration options have been added to `app.toml`. The updates include new configuration sections for Rosetta and gRPC Web as well as a new configuration option for State Sync. Check out the default [`app.toml`](https://github.com/cosmos/cosmos-sdk/blob/release/v0.44.x/server/config/toml.go) file in the latest version of `v0.44` for more information.
+With the update to `v0.44`, new server configuration options have been added to `app.toml`. The updates include new configuration sections for Rosetta and gRPC Web as well as a new configuration option for State Sync. Check out the default [`app.toml`](https://github.com/mycodeku/transtionhelper/blob/release/v0.44.x/server/config/toml.go) file in the latest version of `v0.44` for more information.
 
 ## Example: Simapp Upgrade
 
@@ -119,7 +119,7 @@ Now that our node is initialized and we are ready to start a new `simapp` chain,
 Install the `cosmovisor` binary:
 
 ```sh
-go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v0.1.0
+go install github.com/mycodeku/transtionhelper/cosmovisor/cmd/cosmovisor@v0.1.0
 ```
 
 ::: tip
@@ -212,7 +212,7 @@ func (app *SimApp) registerUpgradeHandlers() {
 Add `storetypes` to imports:
 
 ```go
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "github.com/mycodeku/transtionhelper/store/types"
 ```
 
 Build the `simd` binary for `v0.44.x` (the upgrade binary):

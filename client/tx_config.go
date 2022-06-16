@@ -1,10 +1,10 @@
 package client
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
+	signingtypes "github.com/mycodeku/transtionhelper/types/tx/signing"
+	"github.com/mycodeku/transtionhelper/x/auth/signing"
 )
 
 type (

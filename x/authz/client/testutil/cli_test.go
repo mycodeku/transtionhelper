@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
+	"github.com/mycodeku/transtionhelper/testutil/network"
 )
 
 func TestIntegrationTestSuite(t *testing.T) {

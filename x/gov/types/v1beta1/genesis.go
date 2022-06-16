@@ -3,8 +3,8 @@ package v1beta1
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // NewGenesisState creates a new genesis state for the governance module

@@ -1,6 +1,6 @@
 go 1.17
 
-module github.com/cosmos/cosmos-sdk/db
+module github.com/mycodeku/transtionhelper/db
 
 require (
 	// Note: gorocksdb bindings for OptimisticTransactionDB are not merged upstream, so we use a fork

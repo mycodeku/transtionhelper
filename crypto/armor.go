@@ -10,10 +10,10 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"golang.org/x/crypto/openpgp/armor" // nolint: staticcheck
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/xsalsa20symmetric"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
+	"github.com/mycodeku/transtionhelper/crypto/xsalsa20symmetric"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 const (

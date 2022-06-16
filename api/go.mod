@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/api
+module github.com/mycodeku/transtionhelper/api
 
 go 1.17
 

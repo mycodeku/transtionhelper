@@ -11,8 +11,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cosmos/cosmos-sdk/db"
-	dbutil "github.com/cosmos/cosmos-sdk/db/internal"
+	"github.com/mycodeku/transtionhelper/db"
+	dbutil "github.com/mycodeku/transtionhelper/db/internal"
 
 	"github.com/dgraph-io/badger/v3"
 	bpb "github.com/dgraph-io/badger/v3/pb"

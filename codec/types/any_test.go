@@ -7,8 +7,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/mycodeku/transtionhelper/codec/types"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
 )
 
 type errOnMarshal struct {
@@ -26,7 +26,7 @@ func (eom *errOnMarshal) XXX_Marshal(b []byte, deterministic bool) ([]byte, erro
 var eom = &errOnMarshal{}
 
 // Ensure that returning an error doesn't suddenly allocate and waste bytes.
-// See https://github.com/cosmos/cosmos-sdk/issues/8537
+// See https://github.com/mycodeku/transtionhelper/issues/8537
 func TestNewAnyWithCustomTypeURLWithErrorNoAllocation(t *testing.T) {
 	var ms1, ms2 runtime.MemStats
 	runtime.ReadMemStats(&ms1)

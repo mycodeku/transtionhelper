@@ -1,3 +1,4 @@
+//go:build norace
 // +build norace
 
 package client_test
@@ -11,11 +12,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/mycodeku/transtionhelper/testutil/network"
+	"github.com/mycodeku/transtionhelper/testutil/testdata"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	grpctypes "github.com/mycodeku/transtionhelper/types/grpc"
+	banktypes "github.com/mycodeku/transtionhelper/x/bank/types"
 )
 
 type IntegrationTestSuite struct {

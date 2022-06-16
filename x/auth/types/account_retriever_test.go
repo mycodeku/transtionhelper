@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/mycodeku/transtionhelper/testutil/network"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 )
 
 func TestAccountRetriever(t *testing.T) {

@@ -1,13 +1,13 @@
 package errors
 
 import (
-	errorsmod "github.com/cosmos/cosmos-sdk/errors"
+	errorsmod "github.com/mycodeku/transtionhelper/errors"
 )
 
 // Type Aliases to errors module
 //
 // Deprecated: functionality of this package has been moved to it's own module:
-//    github.com/cosmos/cosmos-sdk/errors
+//    github.com/mycodeku/transtionhelper/errors
 // Please use the above module instead of this package.
 var (
 	SuccessABCICode    = errorsmod.SuccessABCICode
@@ -27,7 +27,7 @@ var (
 
 // Error type alias for errorsmod.Error
 //
-// Deprecated: the type has been moved to github.com/cosmos/cosmos-sdk/errors
+// Deprecated: the type has been moved to github.com/mycodeku/transtionhelper/errors
 // module. Please use the above module instead of this package.
 type Error = errorsmod.Error
 

@@ -1,7 +1,7 @@
 package simulation_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/mycodeku/transtionhelper/codec/legacy"
 	"math/rand"
 	"testing"
 
@@ -9,15 +9,15 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/distribution/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/mycodeku/transtionhelper/simapp"
+	simappparams "github.com/mycodeku/transtionhelper/simapp/params"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	simtypes "github.com/mycodeku/transtionhelper/types/simulation"
+	"github.com/mycodeku/transtionhelper/x/bank/testutil"
+	"github.com/mycodeku/transtionhelper/x/distribution/simulation"
+	"github.com/mycodeku/transtionhelper/x/distribution/types"
+	distrtypes "github.com/mycodeku/transtionhelper/x/distribution/types"
+	stakingtypes "github.com/mycodeku/transtionhelper/x/staking/types"
 )
 
 // TestWeightedOperations tests the weights of the operations.

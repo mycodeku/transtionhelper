@@ -6,7 +6,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	cryptokeyring "github.com/cosmos/cosmos-sdk/crypto/keyring"
+	cryptokeyring "github.com/mycodeku/transtionhelper/crypto/keyring"
 )
 
 // available output formats.
@@ -48,7 +48,7 @@ func printKeyringRecords(w io.Writer, records []*cryptokeyring.Record, output st
 		printTextRecords(w, kos)
 
 	case OutputFormatJSON:
-		// TODO https://github.com/cosmos/cosmos-sdk/issues/8046
+		// TODO https://github.com/mycodeku/transtionhelper/issues/8046
 		// Replace AminoCdc with Proto JSON
 		out, err := KeysCdc.MarshalJSON(kos)
 		if err != nil {

@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/container
+module github.com/mycodeku/transtionhelper/container
 
 go 1.17
 

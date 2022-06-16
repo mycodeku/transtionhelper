@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/db"
+	"github.com/mycodeku/transtionhelper/db"
 )
 
 // Test that VersionManager satisfies the behavior of VersionSet

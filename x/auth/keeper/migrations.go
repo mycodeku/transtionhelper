@@ -3,10 +3,10 @@ package keeper
 import (
 	"github.com/gogo/protobuf/grpc"
 
-	v043 "github.com/cosmos/cosmos-sdk/x/auth/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	v043 "github.com/mycodeku/transtionhelper/x/auth/migrations/v043"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
 )
 
 // Migrator is a struct for handling in-place store migrations.

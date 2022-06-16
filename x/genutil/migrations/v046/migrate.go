@@ -1,11 +1,11 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	v043gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v043"
-	v046gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v046"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/x/genutil/types"
+	v043gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v043"
+	v046gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v046"
+	gov "github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
 )
 
 // Migrate migrates exported state from v0.43 to a v0.46 genesis state.

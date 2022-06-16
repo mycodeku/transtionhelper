@@ -7,8 +7,8 @@ import (
 	ics23 "github.com/confio/ics23/go"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cosmos/cosmos-sdk/db/memdb"
-	store "github.com/cosmos/cosmos-sdk/store/v2alpha1/smt"
+	"github.com/mycodeku/transtionhelper/db/memdb"
+	store "github.com/mycodeku/transtionhelper/store/v2alpha1/smt"
 )
 
 func TestProofICS23(t *testing.T) {

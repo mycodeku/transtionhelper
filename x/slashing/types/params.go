@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	paramtypes "github.com/mycodeku/transtionhelper/x/params/types"
 )
 
 // Default parameter namespace

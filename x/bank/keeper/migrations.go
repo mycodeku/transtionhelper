@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	v046 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v046"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	v043 "github.com/mycodeku/transtionhelper/x/bank/migrations/v043"
+	v046 "github.com/mycodeku/transtionhelper/x/bank/migrations/v046"
 )
 
 // Migrator is a struct for handling in-place store migrations.

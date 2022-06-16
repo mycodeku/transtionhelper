@@ -82,7 +82,7 @@ This proposal prescribes to the standard governance process. If the proposal pas
 the `Plan`, which targets a specific `Handler`, is persisted and scheduled. The
 upgrade can be delayed or hastened by updating the `Plan.Height` in a new proposal.
 
-+++ https://github.com/cosmos/cosmos-sdk/blob/08ddb217c176abe31c96af9d5f6c4c6fc645c4d4/proto/cosmos/upgrade/v1beta1/tx.proto#L19-L28
++++ https://github.com/mycodeku/transtionhelper/blob/08ddb217c176abe31c96af9d5f6c4c6fc645c4d4/proto/cosmos/upgrade/v1beta1/tx.proto#L19-L28
 
 ### Cancelling Upgrade Proposals
 

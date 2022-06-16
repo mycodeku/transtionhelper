@@ -8,9 +8,9 @@ import (
 	"gotest.tools/v3/assert"
 	"pgregory.net/rapid"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testutil"
+	"github.com/mycodeku/transtionhelper/orm/encoding/ormkv"
+	"github.com/mycodeku/transtionhelper/orm/internal/testpb"
+	"github.com/mycodeku/transtionhelper/orm/internal/testutil"
 )
 
 func TestUniqueKeyCodec(t *testing.T) {

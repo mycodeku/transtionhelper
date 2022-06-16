@@ -5,16 +5,16 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v036"
-	v040distr "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	v034gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v034"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v036"
-	v040gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	v036params "github.com/cosmos/cosmos-sdk/x/params/migrations/v036"
-	v040params "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
-	v038upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/migrations/v038"
-	v040upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	codectypes "github.com/mycodeku/transtionhelper/codec/types"
+	v036distr "github.com/mycodeku/transtionhelper/x/distribution/migrations/v036"
+	v040distr "github.com/mycodeku/transtionhelper/x/distribution/types"
+	v034gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v034"
+	v036gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v036"
+	v040gov "github.com/mycodeku/transtionhelper/x/gov/types/v1beta1"
+	v036params "github.com/mycodeku/transtionhelper/x/params/migrations/v036"
+	v040params "github.com/mycodeku/transtionhelper/x/params/types/proposal"
+	v038upgrade "github.com/mycodeku/transtionhelper/x/upgrade/migrations/v038"
+	v040upgrade "github.com/mycodeku/transtionhelper/x/upgrade/types"
 )
 
 func migrateVoteOption(oldVoteOption v034gov.VoteOption) v040gov.VoteOption {

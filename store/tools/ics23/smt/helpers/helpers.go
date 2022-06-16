@@ -13,7 +13,7 @@ import (
 
 	"github.com/lazyledger/smt"
 
-	tmproofs "github.com/cosmos/cosmos-sdk/store/internal/proofs"
+	tmproofs "github.com/mycodeku/transtionhelper/store/internal/proofs"
 )
 
 // PreimageMap maps each tree path back to its preimage

@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/x/auth/types"
 )
 
 // AccountKeeper defines the contract needed for AccountKeeper related APIs.

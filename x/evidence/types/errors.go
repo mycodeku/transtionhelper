@@ -2,7 +2,7 @@
 package types
 
 import (
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
 )
 
 // x/evidence module sentinel errors

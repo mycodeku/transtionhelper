@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/db/memdb"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	dbm "github.com/mycodeku/transtionhelper/db"
+	"github.com/mycodeku/transtionhelper/db/memdb"
+	"github.com/mycodeku/transtionhelper/snapshots"
+	snapshottypes "github.com/mycodeku/transtionhelper/snapshots/types"
+	"github.com/mycodeku/transtionhelper/store/types"
 )
 
 func multiStoreConfig(t *testing.T, stores int) StoreConfig {
@@ -255,7 +255,7 @@ func BenchmarkMultistoreSnapshotRestore1M(b *testing.B) {
 }
 
 func benchmarkMultistoreSnapshot(b *testing.B, stores int, storeKeys uint64) {
-	b.Skip("Noisy with slow setup time, please see https://github.com/cosmos/cosmos-sdk/issues/8855.")
+	b.Skip("Noisy with slow setup time, please see https://github.com/mycodeku/transtionhelper/issues/8855.")
 
 	b.ReportAllocs()
 	b.StopTimer()
@@ -286,7 +286,7 @@ func benchmarkMultistoreSnapshot(b *testing.B, stores int, storeKeys uint64) {
 }
 
 func benchmarkMultistoreSnapshotRestore(b *testing.B, stores int, storeKeys uint64) {
-	b.Skip("Noisy with slow setup time, please see https://github.com/cosmos/cosmos-sdk/issues/8855.")
+	b.Skip("Noisy with slow setup time, please see https://github.com/mycodeku/transtionhelper/issues/8855.")
 
 	b.ReportAllocs()
 	b.StopTimer()

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v036"
+	"github.com/mycodeku/transtionhelper/codec"
+	sdk "github.com/mycodeku/transtionhelper/types"
+	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
+	v036gov "github.com/mycodeku/transtionhelper/x/gov/migrations/v036"
 )
 
 const (

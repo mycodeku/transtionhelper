@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cosmos/cosmos-sdk/db/memdb"
-	store "github.com/cosmos/cosmos-sdk/store/v2alpha1/smt"
+	"github.com/mycodeku/transtionhelper/db/memdb"
+	store "github.com/mycodeku/transtionhelper/store/v2alpha1/smt"
 )
 
 func TestGetSetHasDelete(t *testing.T) {

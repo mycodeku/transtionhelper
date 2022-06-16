@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/mycodeku/transtionhelper/store/types"
+	"github.com/mycodeku/transtionhelper/types/errors"
 )
 
 const (

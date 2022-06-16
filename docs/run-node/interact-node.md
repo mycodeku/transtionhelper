@@ -88,7 +88,7 @@ grpcurl \
     cosmos.bank.v1beta1.Query/AllBalances
 ```
 
-The list of all available gRPC query endpoints is [coming soon](https://github.com/cosmos/cosmos-sdk/issues/7786).
+The list of all available gRPC query endpoints is [coming soon](https://github.com/mycodeku/transtionhelper/issues/7786).
 
 #### Query for historical state using grpcurl
 
@@ -117,8 +117,8 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/cosmos/cosmo-sdk/codec"
-    sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+    sdk "github.com/mycodeku/transtionhelper/types"
+	"github.com/mycodeku/transtionhelper/types/tx"
 )
 
 func queryState() error {
@@ -153,7 +153,7 @@ func queryState() error {
 }
 ```
 
-You can replace the query client (here we are using `x/bank`'s) with one generated from any other Protobuf service. The list of all available gRPC query endpoints is [coming soon](https://github.com/cosmos/cosmos-sdk/issues/7786).
+You can replace the query client (here we are using `x/bank`'s) with one generated from any other Protobuf service. The list of all available gRPC query endpoints is [coming soon](https://github.com/mycodeku/transtionhelper/issues/7786).
 
 #### Query for historical state using Go
 
@@ -167,8 +167,8 @@ import (
     "google.golang.org/grpc"
     "google.golang.org/grpc/metadata"
 
-    grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+    grpctypes "github.com/mycodeku/transtionhelper/types/grpc"
+	"github.com/mycodeku/transtionhelper/types/tx"
 )
 
 func queryState() error {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/mycodeku/transtionhelper/crypto/hd"
 )
 
 func TestNewSigningAlgoByString(t *testing.T) {

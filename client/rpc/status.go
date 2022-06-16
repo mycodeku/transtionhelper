@@ -9,10 +9,10 @@ import (
 	"github.com/tendermint/tendermint/rpc/coretypes"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/mycodeku/transtionhelper/client"
+	"github.com/mycodeku/transtionhelper/client/flags"
+	cryptocodec "github.com/mycodeku/transtionhelper/crypto/codec"
+	cryptotypes "github.com/mycodeku/transtionhelper/crypto/types"
 )
 
 // ValidatorInfo is info about the node's validator, same as Tendermint,
