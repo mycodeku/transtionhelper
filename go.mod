@@ -57,10 +57,9 @@ require (
 )
 
 require (
-	github.com/ethereum/go-ethereum v1.10.16
-	github.com/mycodeku/transtionhelper/api v0.0.0-20220616091130-e3878864019a
-	github.com/mycodeku/transtionhelper/db v0.0.0-00010101000000-000000000000
-	github.com/mycodeku/transtionhelper/errors v0.0.0-20220616091130-e3878864019a
+	github.com/mycodeku/transtionhelper/api v0.0.0-20220617004638-c36bb7c55a16
+	github.com/mycodeku/transtionhelper/db v0.0.0-20220617004638-c36bb7c55a16
+	github.com/mycodeku/transtionhelper/errors v0.0.0-20220617004638-c36bb7c55a16
 )
 
 require (

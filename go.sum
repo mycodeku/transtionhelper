@@ -360,7 +360,6 @@ github.com/envoyproxy/protoc-gen-validate v0.0.14/go.mod h1:iSmxcyjqTsJpI2R4NaDN
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/envoyproxy/protoc-gen-validate v0.6.2/go.mod h1:2t7qjJNvHPx8IjnBOzl9E9/baC+qXE/TeeyBRzgJDws=
 github.com/esimonov/ifshort v1.0.4/go.mod h1:Pe8zjlRrJ80+q2CxHLfEOfTwxCZ4O+MuhcHcfgNWTk0=
-github.com/ethereum/go-ethereum v1.10.16 h1:3oPrumn0bCW/idjcxMn5YYVCdK7VzJYIvwGZUGLEaoc=
 github.com/ethereum/go-ethereum v1.10.16/go.mod h1:Anj6cxczl+AHy63o4X9O8yWNHuN5wMpfb8MAnHkWn7Y=
 github.com/ettle/strcase v0.1.1/go.mod h1:hzDLsPC7/lwKyBOywSHEP89nt2pDgdy+No1NBA9o9VY=
 github.com/facebookgo/ensure v0.0.0-20160127193407-b4ab57deab51/go.mod h1:Yg+htXGokKKdzcwhuNDwVvN+uBxDGXJ7G/VN1d8fa64=
@@ -936,10 +935,10 @@ github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRW
 github.com/mwitkow/go-proto-validators v0.0.0-20180403085117-0950a7990007/go.mod h1:m2XC9Qq0AlmmVksL6FktJCdTYyLk7V3fKyp0sl1yWQo=
 github.com/mwitkow/go-proto-validators v0.2.0/go.mod h1:ZfA1hW+UH/2ZHOWvQ3HnQaU0DtnpXu850MZiy+YUgcc=
 github.com/mwitkow/grpc-proxy v0.0.0-20181017164139-0f1106ef9c76/go.mod h1:x5OoJHDHqxHS801UIuhqGl6QdSAEJvtausosHSdazIo=
-github.com/mycodeku/transtionhelper/api v0.0.0-20220616091130-e3878864019a h1:0ePorawh5FWcQ2riEGS5CYDixY19hg4/cswT+ma3cY8=
-github.com/mycodeku/transtionhelper/api v0.0.0-20220616091130-e3878864019a/go.mod h1:nVm6fWCTHpi1PWRFOVBjtb5vaqpbx0wc62FwkrfZZiY=
-github.com/mycodeku/transtionhelper/errors v0.0.0-20220616091130-e3878864019a h1:TXL6gBQdTFzTBdRobOkY4I9cnz9S4xNbgrp8wknPdWI=
-github.com/mycodeku/transtionhelper/errors v0.0.0-20220616091130-e3878864019a/go.mod h1:kTfpslrJMU0vvtRAO+0pl9+iUP8IO5nmsrWxDGWLdPY=
+github.com/mycodeku/transtionhelper/api v0.0.0-20220617004638-c36bb7c55a16 h1:u/y8+txwROy7yR2cJ/4okh0jM6+/g/s1TAAntNNeoI0=
+github.com/mycodeku/transtionhelper/api v0.0.0-20220617004638-c36bb7c55a16/go.mod h1:nVm6fWCTHpi1PWRFOVBjtb5vaqpbx0wc62FwkrfZZiY=
+github.com/mycodeku/transtionhelper/errors v0.0.0-20220617004638-c36bb7c55a16 h1:Z0GQoVWC2zCRlV4NTzyU+BV7KYVrJ5UvhPGutTJyHNE=
+github.com/mycodeku/transtionhelper/errors v0.0.0-20220617004638-c36bb7c55a16/go.mod h1:kTfpslrJMU0vvtRAO+0pl9+iUP8IO5nmsrWxDGWLdPY=
 github.com/nakabonne/nestif v0.3.1/go.mod h1:9EtoZochLn5iUprVDmDjqGKPofoUEBL8U4Ngq6aY7OE=
 github.com/naoina/go-stringutil v0.1.0/go.mod h1:XJ2SJL9jCtBh+P9q5btrd/Ylo8XwT/h1USek5+NqSA0=
 github.com/naoina/toml v0.1.2-0.20170918210437-9fafd6967416/go.mod h1:NBIhNtsFMo3G2szEBne+bO4gS192HuIYRqfvOWb4i1E=
