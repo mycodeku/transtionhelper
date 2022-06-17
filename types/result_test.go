@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/rpc/coretypes"
+	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
 	"github.com/mycodeku/transtionhelper/codec"
 	"github.com/mycodeku/transtionhelper/testutil/testdata"

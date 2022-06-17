@@ -10,7 +10,7 @@ import (
 	rosettatypes "github.com/coinbase/rosetta-sdk-go/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto"
-	tmcoretypes "github.com/tendermint/tendermint/rpc/coretypes"
+	tmcoretypes coretypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
 	sdkclient "github.com/mycodeku/transtionhelper/client"

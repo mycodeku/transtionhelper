@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tendermint/tendermint/rpc/coretypes"
+	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
 	"github.com/mycodeku/transtionhelper/client"
 	codectypes "github.com/mycodeku/transtionhelper/codec/types"

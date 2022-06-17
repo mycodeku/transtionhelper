@@ -3,13 +3,13 @@ package client
 import (
 	"context"
 	"fmt"
+	tmtypes "github.com/tendermint/tendermint/types"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/tmhash"
 	"github.com/tendermint/tendermint/rpc/client/mock"
-	"github.com/tendermint/tendermint/rpc/coretypes"
-	tmtypes "github.com/tendermint/tendermint/types"
+	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
 	"github.com/mycodeku/transtionhelper/client/flags"
 	sdkerrors "github.com/mycodeku/transtionhelper/types/errors"
@@ -42,9 +42,9 @@ func CreateContextWithErrorAndMode(err error, mode string) Context {
 // Test the correct code is returned when
 func TestBroadcastError(t *testing.T) {
 	errors := map[error]uint32{
-		tmtypes.ErrTxInCache:       sdkerrors.ErrTxInMempoolCache.ABCICode(),
-		tmtypes.ErrTxTooLarge{}:    sdkerrors.ErrTxTooLarge.ABCICode(),
-		tmtypes.ErrMempoolIsFull{}: sdkerrors.ErrMempoolIsFull.ABCICode(),
+		tmtypes.ErrInvalidBlockPartSignature: sdkerrors.ErrTxInMempoolCache.ABCICode(),
+		tmtypes.ErrInvalidBlockPartHash:      sdkerrors.ErrTxTooLarge.ABCICode(),
+		tmtypes.ErrInvalidBlockPartSignature: sdkerrors.ErrMempoolIsFull.ABCICode(),
 	}
 
 	modes := []string{

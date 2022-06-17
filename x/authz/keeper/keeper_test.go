@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/suite"
-	tmtime "github.com/tendermint/tendermint/libs/time"
+	tmtime "github.com/tendermint/tendermint/libs/timer"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/mycodeku/transtionhelper/baseapp"

@@ -15,7 +15,7 @@ import (
 	tmconfig "github.com/tendermint/tendermint/config"
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmtime "github.com/tendermint/tendermint/libs/time"
+	tmtime "github.com/tendermint/tendermint/libs/timer"
 	"github.com/tendermint/tendermint/types"
 
 	"github.com/mycodeku/transtionhelper/client"

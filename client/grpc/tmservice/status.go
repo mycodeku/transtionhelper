@@ -2,8 +2,7 @@ package tmservice
 
 import (
 	"context"
-
-	"github.com/tendermint/tendermint/rpc/coretypes"
+	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
 	"github.com/mycodeku/transtionhelper/client"
 )

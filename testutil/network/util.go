@@ -8,7 +8,7 @@ import (
 
 	abciclient "github.com/tendermint/tendermint/abci/client"
 	tmos "github.com/tendermint/tendermint/libs/os"
-	tmtime "github.com/tendermint/tendermint/libs/time"
+	tmtime "github.com/tendermint/tendermint/libs/timer"
 	"github.com/tendermint/tendermint/node"
 	"github.com/tendermint/tendermint/rpc/client/local"
 	"github.com/tendermint/tendermint/types"
