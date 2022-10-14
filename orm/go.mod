@@ -4,14 +4,15 @@ go 1.17
 
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
-	github.com/mycodeku/transtionhelper/api v0.0.0-20220616091130-e3878864019a
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.5.7
 	github.com/iancoleman/strcase v0.2.0
+	github.com/mycodeku/transtionhelper/api v0.0.0-20220616091130-e3878864019a
+	github.com/mycodeku/transtionhelper/errors v0.0.0-20220620005849-a315113d9162
 	github.com/regen-network/gocuke v0.6.1
 	github.com/stretchr/testify v1.7.1
 	github.com/tendermint/tm-db v0.6.7
-	google.golang.org/grpc v1.45.0
+	google.golang.org/grpc v1.50.1
 	google.golang.org/protobuf v1.28.0
 	gotest.tools/v3 v3.1.0
 	pgregory.net/rapid v0.4.7
