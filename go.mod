@@ -1,4 +1,4 @@
-go 1.17
+go 1.23
 
 module github.com/mycodeku/transtionhelper
 
@@ -51,7 +51,7 @@ require (
 	google.golang.org/genproto v0.0.0-20220407144326-9054f6ed7bac
 	google.golang.org/grpc v1.46.2
 	google.golang.org/protobuf v1.28.0
-	pgregory.net/rapid v0.4.7
+	pgregory.net/rapid v1.3.0
 	sigs.k8s.io/yaml v1.3.0
 )
 
